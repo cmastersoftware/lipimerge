@@ -1,0 +1,27 @@
+# # ! IMPORTANT:
+# # ! This file is comented out as not tested and not used in the current setup.
+# # ! It is provided as a template for future use.
+# # ! Uncomment and modify as needed for your project.
+
+# [project]
+# 
+# name = "lipimerge"
+# version = "1.0.0"
+# description = "Merges LipidQuant export files into a unified table."
+# authors = [{ name = "Pavel Dubsky", email = "cmaster.software@gmail.com" }]
+# readme = "README.md"
+# requires-python = ">=3.8"
+# dependencies = [
+#     "openpyxl",
+#     "tk",           # Or `tkinter` if explicitly required by some systems
+# ]
+# 
+# [project.scripts]
+# 
+# mytool = "mytool.cli:main"
+# 
+# [build-system]
+# 
+# requires = ["setuptools"]
+# build-backend = "setuptools.build_meta"
+# 
