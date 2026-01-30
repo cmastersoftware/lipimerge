@@ -1,13 +1,11 @@
-# Virtual environment
+# VS Code
+.vscode/
+
+# Python
 .venv/
-
-# Bytecode
+.pytest_cache/
 __pycache__/
-*.py[cod]
+*.egg-info/
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# data files
-data/
+# Data
+.data/

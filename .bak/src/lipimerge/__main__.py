@@ -5,8 +5,8 @@ See the README for more details on how to use this script.
 
 Usage:
     1) lipimerge
-    2) lipimerge input1 [input2 ...] {-o | --output} output [options]
-    3) lipimerge {-d | --directory} directory [{-o | --output} output] [options]
+    2) lipimerge input1 [input2 ...] {-o | --output} output
+    3) lipimerge {-d | --directory} directory [{-o | --output} output]
     4) lipimerge -v | --version
     5) lipimerge -h | --help
     
@@ -18,10 +18,6 @@ Description:
        - If no output file is specified, it defaults to './lipimerge.xlsx'.
     4) Use -v or --version to display the version of the script.
     5) Use -h or --help to display this help message.
-
-Options:
-  --ignore-blanks: any record the includes "blank" (case insensitive) in its name is ignored completely
-  --trim-class-names: any white spaces at the beginning and end of the class names are trimmed
 
 Examples:
     py -m lipimerge data1.xlsm data2.xlsm -o result.xlsm
@@ -77,18 +73,6 @@ def main():
         help='Directory',
     )
 
-    parser.add_argument(
-       '--ignore-blanks',
-       action='store_true',
-       help='ignore blank samples' 
-    )
-
-    parser.add_argument(
-       '--trim-class-names',
-       action='store_true',
-       help='trim white spaces around class names' 
-    )
-
     args = parser.parse_args()
 
     # Validate the arguments
@@ -126,9 +110,7 @@ def main():
         if not args.output_file: args.output_file = os.path.join('lipimerge.xlsx')
         args.output_file = os.path.join(args.directory, args.output_file)
 
-    if not args.output_file.endswith('.xlsx'): args.output_file += '.xlsx'
-
-    return lipimerge.process(args.input_files, args.output_file, args.ignore_blanks, args.trim_class_names)
+    return lipimerge.process(args.input_files, args.output_file)
     
 
 if __name__ == "__main__":
@@ -149,9 +131,9 @@ if __name__ == "__main__":
         console.print(f"[red]Error: {result}[/]")
 
     console.print("----------------------------------------")
-    console.print("[yellow]Details:[/]")
+    console.print("Details:")
     for line in result.details:
-        console.print(f"[yellow]{line}[/]")
+        console.print(line)
     console.print("========================================")
 
     sys.exit(result.errcode)

@@ -1,0 +1,30 @@
+'[Valid-and-Invalid_count129.xlsx]DuplicateCol-4'!R1C2: Duplicate class 'b' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]DuplicateCol-4'!R1C7: Duplicate class 'b' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]DuplicateCol-4'!R1C3: Duplicate class 'c' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]DuplicateCol-4'!R1C4: Duplicate class 'c' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]DuplicateRow-5'!R3C1: Duplicate record 'j' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]DuplicateRow-5'!R7C1: Duplicate record 'j' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]InvalidColumn-1'!R2C3: Non-empty cell in a column with an empty class name.
+'[Valid-and-Invalid_count129.xlsx]InvalidRow-3'!R4C2: Non-empty cell in a row with an empty record.
+'[Valid-and-Invalid_count129.xlsx]InvalidRow-3'!R4C3: Non-empty cell in a row with an empty record.
+'[Valid-and-Invalid_count129.xlsx]InvalidRow-3'!R4C5: Non-empty cell in a row with an empty record.
+'[Valid-and-Invalid_count129.xlsx]InvalidRow-3'!R4C6: Non-empty cell in a row with an empty record.
+'[Valid-and-Invalid_count129.xlsx]InvalidRow-3'!R4C7: Non-empty cell in a row with an empty record.
+'[Valid-and-Invalid_count129.xlsx]DuplicateRow-2'!R2C1: Duplicate record 'i' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]DuplicateRow-2'!R5C1: Duplicate record 'i' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]A1NotEmpty'!R1C1: Non-empty cell A1 (skipping the rest of the sheet)
+'[Valid-and-Invalid_count129.xlsx]DuplicateCol-6'!R1C3: Duplicate class 'c' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]DuplicateCol-6'!R1C7: Duplicate class 'c' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R1C2: Duplicate class 'b' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R1C4: Duplicate class 'b' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R1C3: Duplicate class 'c' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R1C5: Duplicate class 'c' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R1C8: Duplicate class 'c' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R2C1: Duplicate record 'i' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R5C1: Duplicate record 'i' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R7C1: Duplicate record 'i' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R8C1: Duplicate record 'i' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R4C1: Duplicate record 'j' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R6C1: Duplicate record 'j' within one data sheet.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R3C6: Non-empty cell in a column with an empty class name.
+'[Valid-and-Invalid_count129.xlsx]Multi'!R3C6: Non-empty cell in a row with an empty record.
